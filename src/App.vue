@@ -2,6 +2,7 @@
   <div id="app">
     <nav>
       <router-link to="/">Home</router-link> |
+      <router-link to="/todo-list">TodoList</router-link> <!-- Agregar enlace a TodoList -->
       <router-link to="/about">About</router-link>
     </nav>
     <router-view/>
